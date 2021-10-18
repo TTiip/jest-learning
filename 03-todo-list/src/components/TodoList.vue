@@ -4,11 +4,16 @@
       v-for="todo in todos"
       :key="todo.id"
       data-test="todo"
-      class='todo-item'
+      class="todo-item"
       :class="[todo.choose ? 'choose' : '']"
     >
       {{ todo.text }}
-      <input class="checkbox" data-test="checkbox" type="checkbox" v-model="todo.choose" />
+      <input
+        class="checkbox"
+        data-test="checkbox"
+        type="checkbox"
+        v-model="todo.choose"
+      />
     </div>
 
     <form class="form-box" data-test="form" @submit.prevent="createTodo">
