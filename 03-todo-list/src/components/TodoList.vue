@@ -4,15 +4,15 @@
       v-for="todo in todos"
       :key="todo.id"
       data-test="todo"
-      class='todoItem'
-      :class="[todo.completed ? 'completed' : '']"
+      class='todo-item'
+      :class="[todo.choose ? 'choose' : '']"
     >
       {{ todo.text }}
-      <input data-test="checkbox" type="checkbox" v-model="todo.completed" />
+      <input class="checkbox" data-test="checkbox" type="checkbox" v-model="todo.choose" />
     </div>
 
-    <form data-test="form" @submit.prevent="createTodo">
-      <input data-test="newTodo" v-model="newTodo" />
+    <form class="form-box" data-test="form" @submit.prevent="createTodo">
+      <input class="form-input" data-test="newTodo" v-model="newTodo" />
     </form>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           text: 'Learn Vue.js 3',
-          completed: false
+          choose: false
         }
       ]
     }
@@ -39,7 +39,7 @@ export default {
       this.todos.push({
         id: 2,
         text: this.newTodo,
-        completed: false
+        choose: false
       })
     }
   }
