@@ -14,5 +14,5 @@
 - 学会如何避免布尔测试
 
 ## 两种写法
-1.components文件夹中 __tests__ 创建xxx.spec.js
-2.根目录下 tests/unit 文件夹下 创建xxx.spec.js
+>* 1.components文件夹中 __tests__ 创建xxx.spec.js
+>* 2.根目录下 tests/unit 文件夹下 创建xxx.spec.js
