@@ -1,6 +1,7 @@
 import Counter from '../Counter.vue'
 import { mount, flushPromises } from '@vue/test-utils'
 
+
 describe('Counter.vue', () => {
 	test('判断属性是否在对象中', async () => {
 		const options = {
