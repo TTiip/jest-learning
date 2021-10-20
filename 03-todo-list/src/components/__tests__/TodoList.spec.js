@@ -15,6 +15,7 @@ describe('TodoList', () => {
   test('create a todo', async () => {
     const wrapper = shallowMount(TodoList)
     const input = wrapper.find('.form-input')
+
     // 先判断默认的 todo
     expect(wrapper.findAll('.todo-item').length).toBe(1)
     // 注意：！！！！！！！！！！
