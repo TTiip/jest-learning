@@ -1,29 +1,12 @@
-# 05-set-value-set-props
+## 任务
 
-## Project setup
-```
-yarn install
-```
+- [ ] 完成对 Password 组件的测试编写
+- [ ] 完成对 Show 组件的测试编写
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 要求
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 收获
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 学会给组件传递 props
+- 学会动态设置组件的 props
+- 学会如何修改组件内部的 data
