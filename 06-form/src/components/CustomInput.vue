@@ -2,6 +2,7 @@
   <label>
     {{ label }}
     <input
+      class="form-input"
       type="text"
       :value="modelValue"
       @input="$emit('update:modelValue', $event.target.value)"
