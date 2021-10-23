@@ -12,6 +12,7 @@ describe('TodoList', () => {
     expect(todo.text()).toBe('Learn Vue.js 3')
   })
 
+
   test('create a todo', async () => {
     const wrapper = shallowMount(TodoList)
     const input = wrapper.find('.form-input')
