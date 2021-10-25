@@ -1,6 +1,7 @@
 ```
-https://zhuanlan.zhihu.com/p/403445305
 详细配置参看这个
+1.https://zhuanlan.zhihu.com/p/403445305
+2.https://juejin.cn/post/6999572866815492110
 ```
 
 ## 任务
